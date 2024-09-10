@@ -5,8 +5,8 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --primary-color: rgb(217, 255, 0);
-  --secondary-color: #3e00c5;
+  --primary-color: rgb(247, 247, 247);
+  --secondary-color: #fe2a1a;
 }
 body {
   background-color: var(--primary-color);
@@ -29,7 +29,7 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: rgb(217, 255, 0);
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
   font-weight: bold;
   padding: 0.2rem 0.6rem;
@@ -129,7 +129,7 @@ nav ul li a:focus::before {
   max-height: 100%;
   background-color: var(--secondary-color);
   opacity: 0.9;
-  color: rgb(217, 255, 20);
+  color: rgb(255, 255, 255);
   box-sizing: border-box;
   padding: 1rem;
   transition: all 0.4s ease-in-out;
