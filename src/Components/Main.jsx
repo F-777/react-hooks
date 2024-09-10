@@ -16,7 +16,7 @@ const Main = () => {
         .then((data) => {
             setData(data.results);
         });
-    });
+    }, [url_set]);
 
     function getData(movieData) {
         if (movieType == "Popular") {
